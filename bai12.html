@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        /*
+        giả sử lãi 4% 1 tháng
+         */
+        let money = parseInt(prompt('Nhập số tiền vay: '));
+        let month = parseInt(prompt('Nhập số tháng vay: '));
+        let a = 1
+        for (a = 1; a <= month; a+=1) {
+            money = money*0.04 + money;
+        }
+
+        alert('Tiền phải trả là');
+    </script>
+</body>
+</html>

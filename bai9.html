@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt('Nhập cạnh a: '));
+        let b = parseInt(prompt('Nhập cạnh b: '));
+        let c = parseInt(prompt('Nhập cạnh c: '));
+        if (a + b > c) {
+            if (a + c > b) {
+                if (b + c > a) {
+                    alert(a + ', ' + b + ', '+ c + 'là 3 cạnh của 1 tam giác')
+                } else {
+                    alert(a + ', ' + b + ', '+ c + 'không là 3 cạnh của 1 tam giác')
+                }
+            } else {
+                alert(a + ', ' + b + ', '+ c + 'không là 3 cạnh của 1 tam giác')
+            }
+        } else {
+            alert(a + ', ' + b + ', '+ c + 'không là 3 cạnh của 1 tam giác')
+        }
+    </script>
+</body>
+</html>
